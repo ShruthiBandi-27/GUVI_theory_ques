@@ -1,0 +1,33 @@
+Objects in JS:
+
+ Objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+Internal representation of objects in JS:
+
+The objects in JS can be created in following ways:
+
+1) We can creat JavaScript Object with Object Literal and can define the property and values inside curly braces.
+
+Ex:
+let fruit = {name:'apple', colour: 'red', place:'kashmir'};
+
+2) We can create JS objects with Constructor
+
+The Constructor is nothing but a function and with help of new keyword, constructor function allows to create multiple objects of same flavors.
+
+Ex: 
+function Vehicle(name, maker) {
+   this.name = name;
+   this.maker = maker;
+}
+let car1 = new Vehicle(’Fiesta’, 'Ford’);
+let car2 = new Vehicle(’Santa Fe’, 'Hyundai’)
+
+
+3) We can create JS object with new keyword
+
+Ex: 
+var person = new Object();
+person.firstName = “Shruthi”;
+person.lastName = “Bandi”;
+person.age = 50;
